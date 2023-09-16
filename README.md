@@ -7,8 +7,9 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 
 ## Installation instructions:
 
-Signup and create GitHub account and install VS-Code. Alternatively, use the Git-Bash/ Zsh/ Powershell terminal to execute commands.
-Copy the share code URL from the gitHub repository and clone it in the local machine using the command "git clone (URL)". Execute milestone_5.py from the terminal to run the game.
+- git clone https://github.com/jai15111997/hangman.git
+
+- python3 milestone_5.py
 
 ## Usage instructions:
 
