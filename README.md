@@ -12,9 +12,9 @@ Copy the share code URL from the gitHub repository and clone it in the local mac
 
 ## Usage instructions:
 
-- ask_for_input(): Asks for input of a single alphabet character until proper input is achieved. Displays appropriate message in case of invalid input.
+- ask_for_input(): Asks for input of a single alphabet character until proper input is achieved. Displays appropriate message in case of invalid input. Displays a warning message when entering previous characters again. Calls check_guess function.
 
-- check_guess(): Converts the user input into a lowercase character and checks if it falls inside the computer's generated word. It displays appropriate message depending on the outcome. 
+- check_guess(): Converts the user input into a lowercase character and checks if it falls inside the computer's generated word. It displays appropriate message depending on the outcome. It also captures all instances of that character in the guessed word.
 
 ## File structure of the project:
 
