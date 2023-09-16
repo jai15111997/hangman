@@ -8,13 +8,15 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 ## Installation instructions:
 
 Signup and create GitHub account and install VS-Code. Alternatively, use the Git-Bash/ Zsh/ Powershell terminal to execute commands.
-Copy the share code URL from the gitHub repository and clone it in the local machine using the command "git clone (URL)" 
+Copy the share code URL from the gitHub repository and clone it in the local machine using the command "git clone (URL)". Execute milestone_5.py from the terminal to run the game.
 
 ## Usage instructions:
 
 - ask_for_input(): Asks for input of a single alphabet character until proper input is achieved. Displays appropriate message in case of invalid input. Displays a warning message when entering previous characters again. Calls check_guess function.
 
 - check_guess(): Converts the user input into a lowercase character and checks if it falls inside the computer's generated word. It displays appropriate message depending on the outcome. It also captures all instances of that character in the guessed word.
+
+- playgame(): Helps in determining the output of the game based on remaining number lives and letters to be guessed. Calls the ask_for_input until the player lose/wins.
 
 ## File structure of the project:
 
@@ -23,6 +25,10 @@ Copy the share code URL from the gitHub repository and clone it in the local mac
 - milestone_2.py: Initial Concept of working with limited inputs.
 
 - milestone_3.py: An improved version of milestone_2.py having adequate functions and improved readability 
+
+- milestone_4.py: Integrated the previous code into class environment and the functions are now called by means of an instance of class.
+
+- milestone_5.py: Final complete code from milestone_4.py that determines the outcome of the game. Run this to play the game!
 
 ## License information:
 
