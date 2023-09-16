@@ -32,6 +32,7 @@ class Hangman:
             else:
                 self.check_guess(guess)
                 print(self.word_guessed)
+                break
     def playgame(self):
         while True:
             if self.num_lives == 0:
